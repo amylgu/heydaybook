@@ -1,6 +1,6 @@
 # Hugo variables
 #
-baseurl = "/"
+baseurl = "https://heydaybook.netlify.com/"
 languageCode = "en-us"
 title = "Heydaybook"
 theme = "hugo-theme-bootstrap4-blog"
@@ -12,7 +12,7 @@ paginate = 3
 disqusShortname = "heydaybook"
 
 [permalinks]
-  post = "/:year/:month/:title/"
+  post = "/:year/:month/:slug/"
   page = "/:slug/"
 
 #[[menu.sidebar]]
@@ -69,7 +69,7 @@ disqusShortname = "heydaybook"
   #custom_navbar = true
 
   # show sharing icons on pages/posts (default: true)
-  sharingicons = true
+  #sharingicons = true
 
   # Display post summaries instead of content in list templates (default: true)
   #truncate = true
@@ -78,6 +78,8 @@ disqusShortname = "heydaybook"
   # Useful if you're using a CDN or other host where you can't control cache headers
   #disable_sri = false
 
+  relativeurls = true
+  
   [params.sidebar]
     # Optional about block for sidebar (can be Markdown)
     about = "<p style='text-align:center;'><img src='/about_photo2.jpg'></p> Welcome to Heydaybook! My name is Amy. This blog began as a way to document my first stay in the UK...and the travel bug has afflicted me ever since. Cheers!"
