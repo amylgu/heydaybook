@@ -77,8 +77,6 @@ disqusShortname = "heydaybook"
   # Disable the use of sub-resource integrity on CSS/JS assets (default: false)
   # Useful if you're using a CDN or other host where you can't control cache headers
   #disable_sri = false
-
-  relativeurls = true
   
   [params.sidebar]
     # Optional about block for sidebar (can be Markdown)
