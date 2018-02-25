@@ -78,7 +78,6 @@ disqusShortname = "heydaybook"
   # Useful if you're using a CDN or other host where you can't control cache headers
   #disable_sri = false
 
-  
   [params.sidebar]
     # Optional about block for sidebar (can be Markdown)
     about = "<p style='text-align:center;'><img src='/about_photo.jpg'></p> Welcome to Heydaybook! My name is Amy. This blog began as a way to document my first stay in the UK...and the travel bug has afflicted me ever since. Cheers!"
