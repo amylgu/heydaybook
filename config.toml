@@ -1,6 +1,6 @@
 # Hugo variables
 #
-baseurl = "https://heydaybook.netlify.com/"
+#baseurl = "/"
 languageCode = "en-us"
 title = "Heydaybook"
 theme = "hugo-theme-bootstrap4-blog"
@@ -78,11 +78,10 @@ disqusShortname = "heydaybook"
   # Useful if you're using a CDN or other host where you can't control cache headers
   #disable_sri = false
 
-  relativeurls = true
   
   [params.sidebar]
     # Optional about block for sidebar (can be Markdown)
-    about = "<p style='text-align:center;'><img src='/about_photo2.jpg'></p> Welcome to Heydaybook! My name is Amy. This blog began as a way to document my first stay in the UK...and the travel bug has afflicted me ever since. Cheers!"
+    about = "<p style='text-align:center;'><img src='/about_photo.jpg'></p> Welcome to Heydaybook! My name is Amy. This blog began as a way to document my first stay in the UK...and the travel bug has afflicted me ever since. Cheers!"
 
     # How many posts to show on the sidebar (Default: 5)
     #num_recent_posts = 2
@@ -102,7 +101,3 @@ disqusShortname = "heydaybook"
 #[languages.bg]
 
 # vim: ts=2 sw=2 et
-
-
-
-
