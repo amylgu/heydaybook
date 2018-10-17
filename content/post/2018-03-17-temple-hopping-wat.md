@@ -10,7 +10,7 @@ tags:
   - temple
   - buddha
 description: ''
-images: 
+images: ['/post/2018-03-17-temple-hopping-wat/02_grand_palace.jpg']
 ---
 
 Bangkok has all the Buddhas. You name it--pretty much any position and color combo. Our second day in Bangkok we spent touring its innumerable wats, or temples. 
